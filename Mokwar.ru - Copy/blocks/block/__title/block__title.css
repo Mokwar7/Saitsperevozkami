@@ -1,0 +1,13 @@
+.block__title {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 121px;
+    color: #5F82FF;
+}
+
+@media screen and (max-width: 1279px) {
+    .block__title {
+        font-size: 90px;
+        line-height: 109px;
+    }   
+}

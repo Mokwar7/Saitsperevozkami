@@ -1,0 +1,14 @@
+.contact {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.075);
+    border-radius: 25px;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    transition: box-shadow 0.5s ease;
+}
+
+.contact:hover {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
