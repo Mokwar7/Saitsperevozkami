@@ -1,0 +1,24 @@
+.block__about {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0085FF;
+    text-decoration: none;
+    margin: 10px auto 0;
+    transition: opacity 0.5s ease;
+}
+
+.block__about:hover {
+    opacity: .7;
+}
+
+@media screen and (max-width: 1279px) {
+    .block__about {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+
+
+

@@ -1,0 +1,11 @@
+.mini-block_white {
+    background-color: #5F82FF;
+}
+
+.mini-block_white-text {
+    color: #101010;
+}
+
+.mini-block_white:hover {
+    background-color: #7896FF;
+}
