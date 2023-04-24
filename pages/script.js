@@ -36,6 +36,7 @@ const addBurgerListener = (config) => {
     burger.addEventListener('click', function(){
         burger.classList.toggle('header__burger_active');
         menu.classList.toggle('header__menu_active');
+        body.classList.toggle('fix')
     })
 }
 

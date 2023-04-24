@@ -11,3 +11,10 @@
         line-height: 28px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .block__subheading {
+        font-size: 17px;
+        line-height: 22px;
+    }
+}

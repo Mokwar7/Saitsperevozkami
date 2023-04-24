@@ -14,3 +14,9 @@
         max-width: 600px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .block__image {
+        max-width: 300px;
+    }
+}

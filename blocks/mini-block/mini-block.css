@@ -36,3 +36,9 @@
         margin-bottom: 0;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .mini-block {
+       width: 100%;
+    }
+}

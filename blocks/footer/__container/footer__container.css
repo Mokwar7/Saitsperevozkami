@@ -18,3 +18,9 @@
         width: 700px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .footer__container {
+        width: 98%;
+    }
+}

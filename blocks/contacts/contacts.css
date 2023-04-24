@@ -5,3 +5,10 @@
     max-width: 650px;
     margin: 100px auto 0;
 }
+
+@media screen and (max-width: 767px) {
+    .contacts {
+        grid-template-columns: 1fr;
+        margin-top: 50px;
+    }
+}

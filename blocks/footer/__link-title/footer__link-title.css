@@ -1,0 +1,8 @@
+@media screen and (max-width: 767px) {
+    .footer__link-title {
+        margin-top: 15px;
+    }
+    .footer__link-title:first-of-type {
+        margin-top: 0;
+    }
+}
