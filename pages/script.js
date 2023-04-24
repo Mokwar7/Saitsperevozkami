@@ -40,5 +40,10 @@ const addBurgerListener = (config) => {
     })
 }
 
+const imgCars = document.querySelector('.carsImg')
+if (window.innerWidth < 767) {
+    imgCars.src = './images/Group 75.png'
+}
+
 addBurgerListener(config)
 
