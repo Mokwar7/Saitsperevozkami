@@ -1,7 +1,0 @@
-.contacts {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
-    max-width: 650px;
-    margin: 100px auto 0;
-}
