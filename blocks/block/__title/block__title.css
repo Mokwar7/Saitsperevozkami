@@ -1,21 +1,21 @@
 .block__title {
     font-weight: 900;
-    font-size: 100px;
-    line-height: 121px;
+    font-size: 50px;
+    line-height: 62px;
     color: #5F82FF;
 }
 
 @media screen and (max-width: 1279px) {
     .block__title {
-        font-size: 90px;
-        line-height: 109px;
+        font-size: 40px;
+        line-height: 52px;
     }   
 }
 
 @media screen and (max-width: 767px) {
     .block__title {
-        font-size: 50px;
-        line-height: 62px;
+        font-size: 30px;
+        line-height: 42px;
         max-width: 100%;
     }
 }

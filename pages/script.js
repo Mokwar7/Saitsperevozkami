@@ -46,4 +46,14 @@ if (window.innerWidth < 767) {
 }
 
 addBurgerListener(config)
+const ggh = document.querySelector('.ggh')
 
+document.addEventListener('scroll', e => {
+    console.log(window.pageYOffset)
+    if (window.pageYOffset > 1300) {
+        ggh.style.display = 'block'
+    }
+    else {
+        ggh.style.display = 'none'
+    }
+ })
