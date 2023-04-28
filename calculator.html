@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pages/reset.css">
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./calculator.css">
+    <script src="./pages/calculator.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__burger"></div>
+        <menu class="header__menu">
+            <a href="#" class="header__menu-item">Рассчитать стоимость</a>
+            <a href="#" class="header__menu-item">Наш автопарк</a>
+            <a href="#" class="header__menu-item">Документы</a>
+            <a href="#" class="header__menu-item">Контакты</a>
+        </menu>
+    </header>
+    <main>
+        <div class="calc">
+            <form novalidate name="calculator" class="calculator__form">
+                <div class="calculator__inputs">
+                    <label class="gg">
+                        <input type="number" min='15' max='200' placeholder="расстояние (км)" class="calculator__input km">
+                        <span class="name-error calculator__span"></span>
+                    </label>
+                    <label class="gg">
+                        <input type="number" min="1" max="10" placeholder="вес груза (т)" class="calculator__input t">
+                        <span class="name-error calculator__span"></span>
+                    </label>
+                </div>
+                <button class="calculator__button">Рассчитать</button>
+            </form>
+        </div>
+        <div class="end"></div>
+    </main>
+</body>
+</html>
